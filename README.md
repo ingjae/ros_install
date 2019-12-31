@@ -52,6 +52,7 @@ http://wiki.ros.org/ROS/Installation
 >sudo apt-get update
 ### 패키지 설치(데스크탑 풀 버전)
 >sudo apt-get install ros-kinetic-desktop-full 
+>sudo apt-get install ros-melodic-desktop-full 
 ### 초기화 작업
 >sudo rosdep init
 
