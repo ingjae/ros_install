@@ -51,19 +51,28 @@ http://wiki.ros.org/ROS/Installation
 ### 패키지 업데이트
 >sudo apt-get update
 ### 패키지 설치(데스크탑 풀 버전)
+- kinetic
 >sudo apt-get install ros-kinetic-desktop-full 
+- melodic
 >sudo apt-get install ros-melodic-desktop-full 
 ### 초기화 작업
 >sudo rosdep init
 
 >rosdep update
 ### 환경 셋업(.bashrc 수정)
+- kinetic
 >echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+- melodic
+>echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 
 >source ~/.bashrc
 
 ### 바뀐 환경 셋업 다시 실행
+- kinetic
 > source /opt/ros/kinetic/setup.bash
+- melodic 
+
+> source /opt/ros/melodic/setup.bash
 
 ### 의존성 패키지 설치
 >sudo apt install python-rosinstall python-rosinstall-generator python-wstool build-essential
